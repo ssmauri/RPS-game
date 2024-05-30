@@ -2,9 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div id="showMsg" class="showMsg">Let's play RPS</div>
+        <div id="Results" class="Results">
+            <div class="boxScore">Human</div>
+            <div class="boxScore">Pc</div>
+            <div id="humanScore" class="boxScore value">0</div>
+            <div id="computerScore" class="boxScore value">0</div>
+        </div>
+        <div id="Buttons" class="Buttons">
+            <button id="1" class="game-btn">Piedra</button>
+            <button id="2" class="game-btn">Papel</button>
+            <button id="3" class="game-btn">Tijera</button>
+        </div>
+        <button id="start" onclick="location.reload()">START</button>
+
         <script src="app.js"></script>
     </body>
 </html>
