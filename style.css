@@ -1,0 +1,45 @@
+body {
+    text-align: -webkit-center;
+}
+.showMsg{
+    font-size: xxx-large;
+    background-color: #2f2845;
+    color: #f9f0a6;
+    font-family: system-ui;
+    border: 2px solid black;
+}
+.Results {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100px; */
+    /* width: 100px; */
+    background-color: #48495b;
+}
+
+.boxScore {
+    flex: 1 1 calc(50%);
+    align-self: center;
+    color: white;
+    /* background: black; */
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.game-btn {
+    background-color: #7aa2ff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: large;
+    /* padding: 50px; */
+    margin: 20px;
+}
+
+#start {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+}
